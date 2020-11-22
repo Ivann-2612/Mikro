@@ -29,8 +29,4 @@ html {
 .w-48 {
     width: 10rem !important;
 }
-.flex items-center, a {
-  border-bottom: 2px solid whitesmoke;
-  padding: 0;
-}
 
