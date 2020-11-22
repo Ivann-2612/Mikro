@@ -1,6 +1,29 @@
-html, body {
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;
-    width: 100%;
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  width: 100%;
 }
+
+#button-brochure {
+  background-color: #f39f86;
+  background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
+  color: red;
+  font-weight: 600;
+}
+#button-brochure:hover {
+  background: transparent;
+  color:#ED8936;
+}
+.h-48 {
+    height: 12rem !important;
+    margin-left: 20px;
+    transform: rotate(45deg);
+    margin-right: -80px;
+    margin-top: -90px;
+}
+.w-48 {
+    width: 10rem !important;
+}
+
