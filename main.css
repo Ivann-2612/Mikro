@@ -5,6 +5,9 @@ body {
   overflow-x: hidden;
   width: 100%;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 #button-brochure {
   background-color: #f39f86;
@@ -25,5 +28,9 @@ body {
 }
 .w-48 {
     width: 10rem !important;
+}
+.flex items-center, a {
+  border-bottom: 2px solid whitesmoke;
+  padding: 0;
 }
 
